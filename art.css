@@ -1,8 +1,25 @@
 h1 {
     font-size: 50px;
+    color:green;
 }
 
-img.artpicture{
+img.artpicture {
     width: 300px;
     height: 300px;
+}
+
+body {
+    background-color: rgb(255, 139, 45);
+}
+
+h2{
+    color:blue;
+}
+
+a {
+    color:greenyellow;
+}
+
+a:visited{
+    color: brown;
 }
