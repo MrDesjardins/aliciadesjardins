@@ -9,7 +9,7 @@ img.artpicture {
 }
 
 body {
-    background-color: rgb(255, 139, 45);
+    background:linear-gradient(0deg, rgb(255, 247, 0), rgb(213, 16, 16));
 }
 
 h2{
@@ -18,8 +18,11 @@ h2{
 
 a {
     color:greenyellow;
+    background-color: black;
+    padding-left:4px;
+    padding-right:4px;
 }
 
 a:visited{
-    color: brown;
+    color: white;
 }
