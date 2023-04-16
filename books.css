@@ -21,13 +21,13 @@ body {
 }
 
 table.egg {
-    border: 4px solid red;
+    border: 4px solid rgb(8, 25, 73);
     border-collapse: collapse;
 }
 
 table.egg th {
     border: 1px solid blue;
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid rgb(8, 25, 73);
     padding:10px;
     background-color: aqua;
     font-size: 20px;
@@ -42,6 +42,38 @@ table.egg td {
 } 
 
 table.egg td.name {
+    font-size: 22px;
+}
+
+.bookimage {
+    width:100%; /*Resize image automatically*/
+    border: 4px solid white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.portrait_geronimo {
+    object-fit: cover; /*Clips the white background on each side*/
+    object-position: 50% 50%; /* Clips left and right side off */
+    height:200px;
+
+    background-color: white;
+    background-blend-mode: multiply;
+}
+.portrait {
+    width:100px;
+}
+
+span.name {
+    color: rgb(165, 23, 190);
+}
+
+/*
+This is the style for many elements
+1) It is for the Weird School people's name not in the table
+2) It is for the Geronimo people's name in the table   
+*/
+.name{
     font-weight: bold;
-    font-size: 18px;
+    text-decoration: underline;
 }
