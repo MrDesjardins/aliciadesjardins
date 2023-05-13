@@ -1,5 +1,31 @@
+body {
+    background-color: rgb(179, 245, 247);
+}
+
 h1{
     font-size: 50px;
     color:red;
 }
     
+em {
+    color:darkred;
+    font-style: normal;
+    font-weight: bold;
+}
+
+em.dad {
+    color:rgb(53, 8, 96);
+    letter-spacing: 2px;
+}
+
+hr{
+    border-color: rgb(77, 177, 177);
+}
+
+li {
+    color:rgb(77, 177, 177);
+}
+
+li div{
+    color:black;
+}
