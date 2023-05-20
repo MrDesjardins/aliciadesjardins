@@ -24,13 +24,12 @@ td.blue {
 
 .board,
 .boardcolor {
-    flex:1;
+    flex:0 0 auto;
 }
 
 .boardcolor {
     margin-left: 50px;
 }
-
 
 ul {
     list-style: none;
@@ -43,9 +42,16 @@ li, label, input {
     padding: 0;
 
 }
-  h2  {
+
+h2  {
     margin-bottom: 30px;
     margin-top:0px ;
+}
 
+body  {
+    background-color: gainsboro;
+}
 
+h1{
+ color: rgba(35, 126, 156, 0.71);       
 }
