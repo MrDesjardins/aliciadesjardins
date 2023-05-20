@@ -35,9 +35,17 @@ td.blue {
 ul {
     list-style: none;
     margin:0;
+    padding: 0px;
 }
 
 li, label, input {
     margin:0;
     padding: 0;
+
+}
+  h2  {
+    margin-bottom: 30px;
+    margin-top:0px ;
+
+
 }
