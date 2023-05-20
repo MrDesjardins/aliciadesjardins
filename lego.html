@@ -138,11 +138,11 @@
                 Block Color Chooser
                 <ul>
                     <li>
-                        <input type="radio" name="color" value="blue" onclick="onColorClick">
+                        <input type="radio" name="color" value="blue" onclick="onColorClick(event)">
                         <label for="html">Blue</label>
                     </li>
                     <li>
-                        <input type="radio" name="color" value="white" onclick="onColorClick">
+                        <input type="radio" name="color" value="white" onclick="onColorClick(event)">
                         <label for="html">White</label>
                     </li>
                 </ul>
@@ -150,11 +150,4 @@
         </div>
     </body>
     <script type="text/javascript" src="lego.js"></script>
-    <script type="text/javascript">
-    function onColorClick(e){
-        getElementById('demo').innerHTML = Date();
-        alert("asd");
-    }
-    onColorClick();
-    </script>
 </html>
