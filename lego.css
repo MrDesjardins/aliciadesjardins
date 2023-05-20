@@ -1,0 +1,43 @@
+table {
+    border: 1px solid black;
+    background-color: rgb(76, 168, 76);
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    width:30px;
+    height: 30px;
+}
+
+td.blue {
+    background-color: blue;
+}
+
+.blueprint {
+    display:flex;
+    flex-direction: row;
+}
+
+.board,
+.boardcolor {
+    flex:1;
+}
+
+.boardcolor {
+    margin-left: 50px;
+}
+
+
+ul {
+    list-style: none;
+    margin:0;
+}
+
+li, label, input {
+    margin:0;
+    padding: 0;
+}
