@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(94, 170, 224);
+}
+h1{
+    color: #c10c4e;
+}
+
+h2 {
+    background-color:rgb(9, 146, 14);
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+h3 {
+    background-color: rgb(162, 29, 86);
+    margin-left:20px;
+    padding: 8px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 4px;
+}
+
+p{
+    color: #060123;
+    margin-left:30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+a.pig{
+    color:rgb(47, 224, 188);
+    background-color: rgb(153, 43, 43);
+}
+a.pig:hover {
+    background-color: rgb(87, 13, 97);
+    color: #ffe100;
+}
+em{
+    color: #c11212;
+    font-family: "Courgette";
+    font-size: 15px;
+}
