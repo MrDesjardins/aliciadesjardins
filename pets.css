@@ -1,5 +1,7 @@
 body {
   background-color: rgb(105, 177, 253);
+  max-width: 500px;
+  margin:auto;
 }
 .petbox {
   
@@ -30,4 +32,31 @@ em {
 
 .snugglesbox .firstpicture{
   border-color: rgb(121, 69, 17);
+}
+
+.toc {
+  position:fixed;
+  right:10px;
+  top:10px;
+  background-color: rgba(250, 235, 215, 0.555);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: -4px 4px 12px rgb(59, 31, 107);
+}
+
+
+.toc h2 {
+  margin: 0px;
+  color: rgb(59, 31, 107);
+}
+
+.toc a{
+  text-decoration: none;
+}
+
+hr {
+  border-style:dotted;
+  border-width: 5px;
+  border-top-left-radius: 20px;
+  border-color: rgb(22, 186, 107);
 }
