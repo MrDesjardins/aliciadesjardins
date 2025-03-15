@@ -19,5 +19,6 @@ function encrypt(msg) {
 
 function setsecretinhtml(){
     const answer = encrypt(document.getElementById('secret_input').value)
-    document.getElementById('secret_ouput').innerText = answer
+    document.getElementById('secret_ouput').innerText = answer;
+    document.getElementById("hidden_text").style.display="block";
 }
